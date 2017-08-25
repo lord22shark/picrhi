@@ -28,7 +28,7 @@
 
 		if (this.container) {
 
-			if (/(http(s)?\:)?\/\//.test(imageUrl)) {
+			if (/(http(s)?\:)?\/?\//.test(imageUrl)) {
 
 				if (/[a-zA-Z0-9\-\_\[\]]{1,255}/.test(inputHiddenName)) {
 
